@@ -1,0 +1,18 @@
+
+Minutes of meeting with Musoplan product manager
+==============================================================
+
+Project - Musoplan
+Date - 6 Sept 2021
+
+
+Discussion - The product manager needs Musoplan to be tested for requirements. Some salient points discussed were:
+
+We will need to assess the software on 3 fronts:
+1) Manual Unit testing of functions
+2) Automated Unit testing of functions
+3) Systems manual testing for data flow 
+
+The user will use the Command line for manual testing.
+The user will use Jest for automated testing of the code
+All documentation and tests will be made available to the user using a test directory in the Musoplan repository

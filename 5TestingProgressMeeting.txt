@@ -1,0 +1,40 @@
+Minutes of meeting: Discussion of test progress with Musoplan product manager
+==============================================================================
+
+Project - Musoplan
+Date - 9 Sept 2021
+Author - Smita Jacob
+
+
+Discussion - I discussed the test progress report with the product manager. Some salient points discussed were:
+* How the test plan fit into the SDLC
+* Status of test coverage reports
+* Defects uncovered from testing
+* Strategies for managing defects
+
+How your test plan fits into the SDLC: 
+--------------------------------------
+Software Development Life Cycle is a continuous process where it is important to test/validate the outcomes/outputs to the user's requirements at every phase. In the steps below, we have gone back to the clients time and again to offer updates and get approval for proceeding to the next phase.
+
+We started with requirement gathering >> did out research and feasibility analysis for VCS >> validated requirements with the music manager >> designed our product architecture >> took approval >> developed the code as per the approved architecture >> checked with product manager on testing requirements >> created a test plan >> performed unit and system testing >> updated the  product manager on progress of testing and the defects encountered >> Deployed the software after getting User Acceptance from music manager.
+
+How your test cases relate to the requirements identified in activity 1:
+------------------------------------------------------------------------
+
+The test cases were designed to fit the requirements laid out in the meeting with the product manager. Some salient features that were implemented were:
+
+We satisfactorily assessed the software on 3 fronts:
+1) Manual Unit testing of functions - This was done using the CLI
+2) Automated Unit testing of functions - All of this was done in Jest
+3) Systems manual testing for data flow - This was also done using the Command line.
+
+We got over 75% coverage of test functions by automated testing. Our test plan included tests for both automatic and manual unit testing, during the testing phase. Theses included valid inputs as well as invalid ones. This helped in identifying the defects in our code. 
+
+We were following the waterfall model and to get to this end point, we have been regularly testing and checking our understanding and deliverables against the user's requirements. We have had meetings
+
+All documentation and tests will be made available to the user using a test directory in the Musoplan repository
+
+Defects identified and strategies for managing them:
+----------------------------------------------------
+
+

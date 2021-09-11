@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="18" failures="0" errors="0" time="0.48">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2021-09-11T11:48:06" time="0.341" tests="2">
+    <testcase classname=" Test troupe details" name=" Test troupe details" time="0.002">
+    </testcase>
+    <testcase classname=" Test writing troupe details to file" name=" Test writing troupe details to file" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2021-09-11T11:48:06" time="0.026" tests="10">
+    <testcase classname=" Test musician details" name=" Test musician details" time="0.001">
+    </testcase>
+    <testcase classname=" Test musician string" name=" Test musician string" time="0">
+    </testcase>
+    <testcase classname=" Test guitarist details" name=" Test guitarist details" time="0.001">
+    </testcase>
+    <testcase classname=" Test guitarist summary" name=" Test guitarist summary" time="0">
+    </testcase>
+    <testcase classname=" Test bassist details" name=" Test bassist details" time="0">
+    </testcase>
+    <testcase classname=" Test bassist summary" name=" Test bassist summary" time="0.001">
+    </testcase>
+    <testcase classname=" Test percussionist details" name=" Test percussionist details" time="0">
+    </testcase>
+    <testcase classname=" Test percussionist summary" name=" Test percussionist summary" time="0">
+    </testcase>
+    <testcase classname=" Test flautist details" name=" Test flautist details" time="0.001">
+    </testcase>
+    <testcase classname=" Test flautist summary" name=" Test flautist summary" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2021-09-11T11:48:06" time="0.025" tests="6">
+    <testcase classname=" Name should be between 3-30 characters" name=" Name should be between 3-30 characters" time="0.001">
+    </testcase>
+    <testcase classname=" Number of instruments should be between 1-5" name=" Number of instruments should be between 1-5" time="0">
+    </testcase>
+    <testcase classname=" Genre should be rock/pop/jazz" name=" Genre should be rock/pop/jazz" time="0">
+    </testcase>
+    <testcase classname=" Hourly rate should be &gt;50" name=" Hourly rate should be &gt;50" time="0">
+    </testcase>
+    <testcase classname=" Duration should be between 0.5 and 3 hours" name=" Duration should be between 0.5 and 3 hours" time="0">
+    </testcase>
+    <testcase classname=" Cost should be the product of rate and duration" name=" Cost should be the product of rate and duration" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>

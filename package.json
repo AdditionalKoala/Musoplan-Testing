@@ -1,0 +1,26 @@
+{
+  "name": "testing-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Tcode.js",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "jest": "^27.1.0",
+    "jest-junit": "^12.2.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "test-coverage": "jest --coverage"
+  },
+  "jest": {
+    "verbose": true,
+    "reporters": [
+      "default",
+      "jest-junit"
+    ]
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,1 @@
+{name:Beatles	instruments:4	genre:pop	rate:60	duration:2}
